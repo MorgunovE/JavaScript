@@ -786,3 +786,121 @@
 // sendRequest('POST', requestURL, body)
 //   .then(data => console.log(data))
 //   .catch(err => console.log(err))
+// const citiesRussia = ['Moscow', 'Piter', 'Kazan', 'Nosibirsk']
+// const citiesEurope = ['Berlin', 'Prague', 'Paris']
+// const citiesRussiaWithPopulation = {
+//   Moscow: 20,
+//   Piter: 8,
+//   Kazan: 5,
+//   Nosibirsk: 3,
+// }
+// const citiesEuropeWithPopulation = {
+//   Berlin: 10,
+//   Prague: 4,
+//   Paris: 2,
+// }
+// // console.log(citiesRussia)
+// // console.log(citiesEurope)
+// // console.log(...citiesRussia)
+// // console.log(...citiesEurope)
+// const allCities = [...citiesEurope, "Washington", ...citiesRussia]
+// const newAllCities = citiesEurope.concat(citiesRussia)
+// console.log(allCities)
+// console.log(newAllCities)
+// console.log(citiesRussiaWithPopulation)
+// console.log({...citiesRussiaWithPopulation})
+// console.log({...citiesRussiaWithPopulation, ...citiesEuropeWithPopulation})
+
+// const numbers = [5, 37, 42, 17]
+// console.log(Math.max(...numbers));
+// console.log(Math.max.apply(null,numbers));
+// const divs = document.querySelectorAll('div')
+// console.log(divs)
+// const nodes = [...divs]
+// console.log(divs.map())
+// console.log(nodes)
+// console.log(divs, Array.isArray(divs))
+// console.log(divs, Array.isArray(nodes))
+
+// function sum(a, b, ...rest) {
+//   // console.log(rest)
+//   return a + b + rest.reduce((a, i) => a + i, 0)
+// }
+//
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+//
+// // console.log(sum(...numbers))
+// const [a, b, ...others] = numbers
+// // console.log(a,b,others)
+// const person = {
+//   name: 'Max',
+//   age: 20,
+//   city: 'Moscow',
+//   country: 'Russia',
+// }
+// const {name, age, ...adress} = person
+// console.log(name, age, adress)
+
+// function calcValues(a, b) {
+//   return [
+//     a + b,
+//     a - b,
+//     // undefined,
+//     a * b,
+//     a / b,
+//   ]
+// }
+
+// console.log(calcValues(42, 10))
+// const result = calcValues(42, 10)
+// const [sum, sub] = calcValues(42, 10)
+// const [sum, sub = 'not sub', mult, ...others] = calcValues(42, 10)
+// const sum = result[0]
+// const sub = result[1]
+// const [sum, sub] = result
+// console.log(sum, sub)
+// console.log(sum, sub, mult, others)
+// const person = {
+//   name: 'Max',
+//   age: 25,
+//   address: {
+//     country: 'Russia',
+//     city: 'Moscow',
+//   }
+// }
+// const {
+//   name: firstName = "haven't name",
+//   age,
+//   car = "haven't car",
+//   address: {city: homeTown, country}
+// } = person
+// const {name, ...info} = person
+// console.log(firstName, age, car, homeTown, country);
+// console.log(name, info);
+// function logPerson(per) {
+//   console.log(per.name + ' ' + per.age)
+// }
+// function logPerson({name: firstName = 'User', age}) {
+//   console.log(firstName + ' ' + age)
+// }
+//
+// logPerson(person)
+
+// const myNumber = 42
+// localStorage.removeItem('number')
+// console.log(localStorage.getItem('number'));
+// localStorage.setItem('number', myNumber.toString())
+// console.log(localStorage.getItem('number'));
+// localStorage.clear()
+// const object = {
+//   name: 'Max',
+//   age: 20,
+// }
+// localStorage.setItem('person', JSON.stringify(object))
+// const raw = localStorage.getItem('person')
+// const person = JSON.parse(raw)
+// person.name = 'User'
+// console.log(person);
+// window.addEventListener('storage', event => {
+//   console.log(event)
+// })
