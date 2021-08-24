@@ -1,6 +1,7 @@
 .idea
 .node_modules
-*.node_modules
+**/node_modules
+node_modules/
 .jest_testing/node_modules
 .js_promise/node_modules
 .node/node_modules

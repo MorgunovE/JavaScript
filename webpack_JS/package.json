@@ -12,5 +12,9 @@
     "webpack"
   ],
   "author": "MOrgunovE <morgunove87@gmai.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
 }

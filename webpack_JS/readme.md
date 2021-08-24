@@ -7,3 +7,4 @@
 7. add analytics.js in index.html
 8. add src and move files
 9. npm init
+10. npm i -D webpack webpack-cli
