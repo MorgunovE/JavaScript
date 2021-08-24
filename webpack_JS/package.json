@@ -1,0 +1,16 @@
+{
+  "name": "webpack_js",
+  "version": "1.0.0",
+  "description": "webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "MOrgunovE <morgunove87@gmai.com>",
+  "license": "ISC"
+}
