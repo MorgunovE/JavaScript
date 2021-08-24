@@ -11,9 +11,11 @@
     "javascript",
     "webpack"
   ],
-  "author": "MOrgunovE <morgunove87@gmai.com>",
+  "author": "MorgunovE <morgunove87@gmai.com>",
   "license": "ISC",
   "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.2",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0"
   }

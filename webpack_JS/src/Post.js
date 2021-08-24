@@ -1,5 +1,5 @@
-// 3
-class Post {
+// 3 and 15
+export default class Post {
   constructor(title) {
     this.title = title
     this.date = new Date()
@@ -11,5 +11,10 @@ class Post {
       title: this.title,
       date: this.date.toJSON()
     })
+  }
+  
+  // 25
+  get uppercaseTitle() {
+    return this.title.toUpperCase()
   }
 }
