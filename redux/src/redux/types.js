@@ -1,0 +1,16 @@
+// 12
+export const INCREMENT = 'INCREMENT'
+export const DECREMENT = 'DECREMENT'
+// export const ASYNC_INCREMENT = 'ASYNC_INCREMENT'
+// 31
+export const CHANGE_THEME = 'CHANGE_THEME'
+// 37
+export const DISABLE_BUTTONS = 'DISABLE_BUTTONS'
+export const ENABLE_BUTTONS = 'ENABLE_BUTTONS'
+
+
+// export const INCREMENT = 'INCREMENT'
+// export const DECREMENT = 'DECREMENT'
+// export const CHANGE_THEME = 'CHANGE_THEME'
+// export const DISABLE_BUTTONS = 'DISABLE_BUTTONS'
+// export const ENABLE_BUTTONS = 'ENABLE_BUTTONS'
