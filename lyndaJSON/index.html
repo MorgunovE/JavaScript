@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>JSON slider</title>
+</head>
+<body>
+<div id="speakerBox">
+  <a href="#" id="prev_btn">&laquo;</a>
+  <a href="#" id="next_btn">&raquo;</a>
+  <div id="carousel"></div>
+</div>
+<script id="speakersTpl" type="text/template">
+  {{#speakers}}
+  <div class="speaker">
+    <img src="images/{{shortname}}_tn.jpg" alt="Photo of {{name}}">
+    <h3>{{name}}</h3>
+    <h4>{{reknown}}</h4>
+    <p>{{bio}}</p>
+  </div>
+  {{/speakers}}
+</script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery.cycle.all.min.js"></script>
+<script src="js/mustache_old.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
